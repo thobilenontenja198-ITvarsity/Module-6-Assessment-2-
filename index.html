@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Auto4Sale</title>
+</head>
+<body>
+    <section class="header" id="header">
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="">Ekarini</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="" class="active">Cars</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Technology</a></li>
+                    <li><a href="">Production</a></li>
+                    <li><a href="">Reviews</a></li>
+                </ul>
+            </div>
+           <div class="social-media">
+               <ul>
+                   <li><i class="fa fa-facebook"></i></li>
+                   <li><i class="fa fa-twitter"></i></li>
+                   <li><i class="fa fa-instagram"></i></li>
+               </ul>
+           </div>
+        </div>
+        <div class="hero">
+            <div class="row">
+                <div class="left-sec">
+                    <div class="content">
+                        <h2><span>BMW</span><br/> 325 Evolution</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <button class="discover-btn">
+                        <a href="">Discover</a><span><i class="fa fa-arrow-circle-o-right"></i></span>
+                    </button>
+                    <div class="information">
+                        <div class="production">
+                            <p>Production</p>
+                            <h2>1989-1991</h2>
+                        </div>
+                        <div class="production">
+                            <p>Designer</p>
+                            <h2>1989-1991</h2>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+                <div class="right-sec">
+                    <div class="my-car">
+                        <div><img src="images/m3-1.jpeg"></div><br/>
+                        <div><img src="images/m3-1.jpeg"></div><br/>
+                        <div><img src="images/m3-1.jpeg"></div><br/>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script type="text/javascript">
+         $(document).ready(function(){
+            $(".my-car").slick({
+                autoplay:true,
+                dots:true,
+                speed:1000,
+                
+            })
+        });
+    </script>
+
+ 
+</body>
+</html>
