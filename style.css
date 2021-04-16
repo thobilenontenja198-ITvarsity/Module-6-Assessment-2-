@@ -207,6 +207,13 @@ li{
     float: right;
 }
 
+.hero .right-sec form{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    float: right;
+}
+
 .hero .right-sec a{
     width: 500px;
     height: 50px;
