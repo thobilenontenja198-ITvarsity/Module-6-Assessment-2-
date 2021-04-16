@@ -7,7 +7,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
+/*=========Universal Styling===========*/
 
 a, a:hover{
     text-decoration: none;
@@ -22,6 +22,8 @@ li{
     display: inline-block;
     
 }
+
+/*=========Header===========*/
 
 .header{
     width: 100%;
@@ -100,6 +102,9 @@ li{
 .header .nav-bar .social-media ul li i:hover{
     background-color: rgb(255 0 0 / 0.9); 
 }
+
+
+/*=========Hero Styling===========*/
 
 .hero{
     width: 100%;
@@ -204,6 +209,7 @@ li{
 
 .hero .right-sec a{
     width: 500px;
+    height: 50px;
     letter-spacing: 3px;
     margin: auto;
     float: right;
@@ -237,14 +243,6 @@ li{
     color: red;
     font-size: 36px;
 }
-
-
-
-
-
-
-
-
 
 .slick-dots{
     padding-left: 450px;
